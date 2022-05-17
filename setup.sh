@@ -6,3 +6,6 @@ echo "alias gdh=\"git diff HEAD\"" >> ~/.bashrc
 echo "alias gdhs=\"git diff HEAD --stat\"" >> ~/.bashrc
 echo "alias gpm=\"git pull origin master\"" >> ~/.bashrc
 echo "alias rebase-latest-master=\"git co master && gpm && git co - && git rebase master\"" >> ~/.bashrc
+
+# attempt git aliases
+git config --global alias.co checkout
